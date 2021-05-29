@@ -1,4 +1,6 @@
-
+body{
+  font-family: 'Mulish';
+}
 .container{
   width: 1247px;
   margin: 0 auto;
@@ -20,7 +22,6 @@ background: #458FF6;
   position: relative;
   left: 12px;
   top: 5px;
-  font-family: Mulish;
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
@@ -34,7 +35,7 @@ background: #458FF6;
   width: 616px;
 }
 .menu-left ul li a{
-  font-family: Mulish;
+ 
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
@@ -44,14 +45,14 @@ background: #458FF6;
  
 }
 .menu-items-text{
-  font-family: Mulish;
+
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
   line-height: 23px;
 }
 .menu-items-text1{
-  font-family: Mulish;
+ 
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -81,7 +82,7 @@ height: 100%;
  
 }
 .cunsolt-left-items h2{
-font-family: Mulish;
+
 font-style: normal;
 font-weight: bold;
 font-size: 48px;
@@ -91,7 +92,7 @@ mix-blend-mode: normal;
 
 }
 .cunsolt-left-items p{
-font-family: Mulish;
+
 font-style: normal;
 font-weight: 300;
 font-size: 21px;
@@ -112,7 +113,7 @@ color: #fff;
   padding-right: 71px;
 }
 .our-services h2{
-font-family: Mulish;
+
 font-style: normal;
 font-weight: bold;
 font-size: 36px;
@@ -130,7 +131,7 @@ margin-top: 26px;
 
 .our-services p{
   padding-top: 33px;
-font-family: Mulish;
+
 font-style: normal;
 font-weight: 300;
 font-size: 18px;
@@ -163,7 +164,6 @@ box-shadow: 10px 40px 50px 0px #E5E9F666;
 }
 .our-service-item h2{
   color: #000;
-  font-family: Mulish;
 font-style: normal;
 font-weight: bold;
 font-size: 24px;
@@ -171,7 +171,6 @@ line-height: 56px;
 }
 
 .our-service-item p{
-  font-family: Mulish;
 font-style: normal;
 font-weight: 300;
 font-size: 16px;
@@ -197,7 +196,6 @@ line-height: 60px;
 }
 
 .container-center{
- 
   width: 1273px;
   margin: 0 auto;
 }
@@ -244,7 +242,6 @@ background: #000000;
 border-radius: 10px;
 }
 .container-center-right p{
-  font-family: Mulish;
   font-style: normal;
   font-weight: 300;
   font-size: 18px;
@@ -276,7 +273,7 @@ border-radius: 24px;
 .customer h2{
   padding-top: 65px;
   text-align: center;
-  font-family: Mulish;
+
 font-style: normal;
 font-weight: bold;
 font-size: 36px;
@@ -305,7 +302,6 @@ mix-blend-mode: normal;
 }
 .customer-text h3{
   padding-left: 33px;
-  font-family: Mulish;
 font-style: normal;
 font-weight: bold;
 font-size: 22px;
@@ -314,7 +310,6 @@ color: #FFFFFF;
 }
 .customer-text span{
   padding-left: 33px;
-  font-family: Mulish;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -325,7 +320,6 @@ color: #FFFFFF;
   width: 50%;
 }
 .customer-right p{
-  font-family: Mulish;
   font-style: normal;
   font-weight: normal;
   font-size: 19px;
@@ -354,7 +348,6 @@ color: #FFFFFF;
     margin-top: 200px;
   }
   .check-out-title{
-font-family: Mulish;
 font-style: normal;
 font-weight: bold;
 font-size: 36px;
@@ -378,7 +371,6 @@ border-radius: 20px 20px 0px 0px;
 
 .check-out-item h3{
   width: 100%;
-  font-family: Mulish;
 font-style: normal;
 font-weight: bold;
 font-size: 21px;
@@ -386,7 +378,6 @@ line-height: 32px;
 color: #000000;
 }
 .check-out-item p{
-  font-family: Mulish;
 font-style: normal;
 font-weight: 300;
 font-size: 16px;
@@ -394,7 +385,6 @@ line-height: 28px;
 color: #7D7987;
 }
 .read-more{
-  font-family: Mulish;
 font-style: normal;
 font-weight: 600;
 font-size: 17px;
@@ -433,15 +423,13 @@ background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
     position: relative;
     left: 15px;
     top: 5px;
-    font-family: Mulish;
     font-style: normal;
     font-weight: bold;
     font-size: 26px;
     line-height: 33px;
   
   }
-  .footer-left .menu-left ul li a{
-    font-family: Mulish;
+  .footer-left .menu-left ul li a{ 
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
@@ -449,7 +437,6 @@ background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
     color: #FFFFFF;
   }
   .footer-left p{
-    font-family: Mulish;
 font-style: normal;
 font-weight: 300;
 font-size: 18px;
@@ -457,7 +444,6 @@ line-height: 28px;
 color: #FFFFFF;
   }
   .designer{
-    font-family: Mulish;
 font-style: normal;
 font-weight: 300;
 font-size: 16px;
@@ -471,7 +457,6 @@ color: #FFFFFF;
   }
 
   .footer-right-items h3{
-    font-family: Mulish;
     font-style: normal;
     font-weight: bold;
     font-size: 20px;
@@ -479,7 +464,6 @@ color: #FFFFFF;
     color: #FFFFFF;
   }
   .footer-right-menu li a{
-    font-family: Mulish;
 font-style: normal;
 font-weight: 300;
 font-size: 18px;
