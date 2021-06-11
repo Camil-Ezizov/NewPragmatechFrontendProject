@@ -1,0 +1,22 @@
+%fonts{
+    font-family: $font-family-playfair;
+    font-style: $normal;
+    font-weight: $weight-500+200;
+    font-size: 2*($size-10)+4;     
+}
+
+%font2{
+    font-family: $font-family-lora;
+    font-style: $normal;
+    font-weight: $normal;
+}
+%font3{
+    font-family: $font-family-lora;
+    font-style: $normal;
+    font-weight: $bold;
+}
+%font4{
+    font-family: $font-family-lato;
+    font-style: $normal;
+    font-weight: $normal;
+}

@@ -1,0 +1,1 @@
+body:before{white-space:pre;font-family:monospace;content:"Error: Undefined variable: \"$font-family-playfair\".\A         on line 2 of C:\Users\Toshiba\Desktop\front2\project 6\scss\message.scss\A \A 1: %fonts{\A 2:     font-family: $font-family-playfair;\A 3:     font-style: $normal;\A 4:     font-weight: $weight-500+200;\A 5:     font-size: 2*($size-10)+4;     \A 6: }\A 7: "}
