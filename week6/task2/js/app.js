@@ -65,23 +65,24 @@
 
 // ededler massivinin tək yerdə duran elementlərinin dəyərlərini cüt yerdə duran elementlərlə dəyişdirin
 
-let ededler=[1,3,5,6,undefined,null,true,{},34,'FrontEndMasters','BackEndMAsters'];
-let newArray=[];
-let n;
-for (let i = 0; i < ededler.length-1; i+=2) {
-      j=i+1;
-      n=ededler[i];
-      ededler[i]=ededler[j];
-      ededler[j]=n;
-      newArray+=String(ededler[i])+" "+String(ededler[j]);
-}
-console.log(newArray);
+// let ededler=[1,3,5,6,undefined,null,true,{},34,'FrontEndMasters','BackEndMAsters'];
+// let newArray=[];
+// let n;
+// for (let i = 0; i < ededler.length-1; i+=2) {
+//       j=i+1;
+//       n=ededler[i];
+//       ededler[i]=ededler[j];
+//       ededler[j]=n;
+//       newArray+=ededler[i]+" "+ededler[j];
+// }
+// console.log(newArray);
 
 // ededler massivi daxilində olan string tiplərini daxilində neçə sait və samit olduğunu ekrana çap elətdirən metod yazın
-// let ededler=[1,3,5,6,undefined,null,true,{},34,'FrontEndMasters','BackEndMAsters'];
-// let sait=['a','ı','o','u','e','ə','i','ö','ü','A','I','O','U','E','Ə','İ','Ö','Ü'];
-// let res=" ";
-// let umumi=" ";
+let ededler=[1,3,5,6,undefined,null,true,{},34,'FrontEndMasters','BackEndMAsters'];
+let sait=['a','ı','o','u','e','ə','i','ö','ü','A','I','O','U','E','Ə','İ','Ö','Ü'];
+let res=" ";
+let umumi=" ";
+
 // for (let i = 0; i < ededler.length; i++) {
 //     if(typeof(ededler[i])==='string'){
 //         res+=ededler[i];   
