@@ -165,8 +165,10 @@ body{
 }
 
 .article{
+    width: 100%;
     position: relative;
   padding-top: 40px;
+
 }
 .article img{
     width: 100%;
@@ -174,6 +176,7 @@ body{
 }
 .article-header{
     width: 100%;
+    text-decoration: none !important;
     background-color:rgba(63, 55, 55, 0.5);
     font-size: 24px;
     color: $secondary-color;
@@ -183,6 +186,115 @@ body{
     left: 0px;
     display: none;
 }
+.article-header span{
+    font-size: 12px;
+    padding-left: 10px;
+
+}
 .article:hover .article-header{
     display: block;
+}
+form{
+width: 100%;
+}
+.contact-item{
+    padding-top: 20px;
+}
+.contact-item input,.contact-item textarea{
+    width: 100%;
+    background-color: rgba(250,250,250,0.1);
+    border: 1px solid rgba(250,250,250,1);
+    border-radius: 0px;
+    padding: 10px;
+   
+}
+.contact-items{
+padding-top: 20px;
+}
+.contact-item-btn{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+.contact-item-btn a{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: $secondary-color;
+    color: $primary-color;
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    transition: all 0.5s;
+    border: none;
+    text-decoration: none;
+   
+}
+.contact{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.contact-number,.contact-adress,.contact-mail{
+color: $secondary-color;
+padding-top: 10px;
+}
+.contact ul li span{
+    color: $primary-color;
+}
+.my-work{
+    padding-top:40px;
+}
+.my-works{
+    display: flex;
+    padding-top: 40px;
+}
+.my-work{
+    display: flex;
+}
+.my-work-text{
+    padding-left: 30px;
+}
+.my-work-img{
+    width: 300px;
+    height: 200px;
+}
+.my-work-img img{
+    width: 100%;
+    height: 100%;
+}
+.my-work-item{
+color: $primary-color;
+padding-top: 10px;
+}
+.my-work-item span{
+
+    color: $secondary-color;
+    padding-left: 10px;
+}
+.version{
+    padding-top: 30px;
+}
+.demo-version{
+    color: $secondary-color;
+    background-color: $primary-color;
+    padding:10px 20px;
+    border-radius: 6px;
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    transition: all 0.5s;
+    text-decoration: none !important;
+}
+.git-version{
+    color: $primary-color;
+    background-color: $secondary-color;
+    padding:10px 20px;
+    border-radius: 6px;
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    transition: all 0.5s; 
+    text-decoration: none !important;
 }

@@ -78,10 +78,10 @@
 // console.log(newArray);
 
 // ededler massivi daxilində olan string tiplərini daxilində neçə sait və samit olduğunu ekrana çap elətdirən metod yazın
-let ededler=[1,3,5,6,undefined,null,true,{},34,'FrontEndMasters','BackEndMAsters'];
-let sait=['a','ı','o','u','e','ə','i','ö','ü','A','I','O','U','E','Ə','İ','Ö','Ü'];
-let res=" ";
-let umumi=" ";
+// let ededler=[1,3,5,6,undefined,null,true,{},34,'FrontEndMasters','BackEndMAsters'];
+// let sait=['a','ı','o','u','e','ə','i','ö','ü','A','I','O','U','E','Ə','İ','Ö','Ü'];
+// let res=" ";
+// let umumi=" ";
 
 // for (let i = 0; i < ededler.length; i++) {
 //     if(typeof(ededler[i])==='string'){
@@ -100,3 +100,32 @@ let umumi=" ";
 // samit=res.length-umumi.length
 // document.getElementById("result").innerHTML="sait sayi: "+" "+umumi.length+" "+"samit sayi:"+" "+samit;
 
+// let ededler=[1,3,5,6,undefined,null,true,{},34,'FrontEndMasters','BackEndMAsters'];
+// let sait=['a','ı','o','u','e','ə','i','ö','ü','A','I','O','U','E','Ə','İ','Ö','Ü'];
+// let res=" ";
+// let saitler=" ";
+// let count=0;
+
+// for (let i = 0; i < ededler.length; i++) {
+//     if(typeof(ededler[i])==='string'){
+//         res+=ededler[i];
+//            }
+//            }
+
+// for (let j = 0; j < res.length; j++) {
+//   for (let l = 0; l < sait.length; l++) {
+//      if(res[j]==sait[l]){
+//           saitler+=res[j];
+//           count++;
+//      }
+     
+//   }
+// }console.log(saitler);
+// console.log(res.length);
+// console.log(count);
+// samit=res.length-saitler.length;
+// document.getElementById("result").innerHTML="sait sayi: "+" "+count+" " +"samit sayi:"+samit;
+
+let reqemler=[3,6,56,87,32,1,67,10,9];
+let res = reqemler.filter((element) => element < 10);
+console.log(res)
